@@ -1,4 +1,56 @@
+/*Fuentes*/
+@font-face {
+  font-family: Netflix;
+  src: url("../fonts/AvenirNextLTPro-Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Netflix;
+  src: url("../fonts/AvenirNextLTPro-Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*Creditos*/
+.credits {
+  font-family: system-ui;
+  background: #212429;
+  font-size: 11px;
+  color: white;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.credits a {
+  color: #f865b0;
+  text-decoration: none;
+}
+
+/*Global*/
 body {
+  margin: 0;
+  font-family: Netflix;
   background: black;
   color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Header*/
+.header {
+  padding: 15px;
+}
+.navigation {
+  display: grid;
+  grid-auto-columns: 100px;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  padding: 0;
+}
+.navigation-item {
+  text-align: center;
+  list-style: none;
 }
