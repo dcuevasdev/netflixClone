@@ -68,6 +68,7 @@ a {
 .featured {
   position: relative;
   margin-top: -90px;
+  overflow: hidden;
 }
 .featured-details {
   position: absolute;
@@ -147,4 +148,33 @@ a {
 }
 .icon-info::before {
   background: url(../images/icons/info.svg);
+}
+
+/*Main*/
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list {
+  padding: 0 1em;
+}
+.list-content {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.list-item {
+  display: inline-block;
+  margin-left: 10px;
+}
+.list-item:first-child {
+  margin: none;
+}
+
+/*Footer*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
